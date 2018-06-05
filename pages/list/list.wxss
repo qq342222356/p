@@ -1,0 +1,154 @@
+/**list.wxss**/
+.list,.detaild,.evaluate,.recom{
+width: 100%;
+font-size: 30rpx;
+text-align: center;
+background: burlywood;
+color: #fff;
+margin-bottom: 12px;
+margin-top: 30px;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.content{
+  width: 100%;
+  background: #efefef;
+}
+.content_list{
+  width: 95%;
+  height: 240rpx;
+  margin:0 auto;
+}
+.left{
+  width: 40%;
+  height: 90%;
+   margin-top:2.5%; 
+  margin-right: 5%;
+  float: left;
+}
+.right{
+  width: 55%;
+  height: 90%;
+   margin-top: 2.5%; 
+  float: right;
+}
+.img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+/* 详情页 */
+.display{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  /* background: #99CCFF; */
+  margin-bottom: 10px;
+   background: rgba(153,204,255,1); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+}
+#detaild .detaild{
+width: 100%;
+font-size: 30rpx;
+text-align: center;
+background: burlywood;
+color: #fff;
+}
+#detaild .container{
+  width: 90%;
+  margin: 0 auto;
+}
+#detaild .content{
+  width: 100%;
+}
+.click{
+  font-weight: 700;
+  border-bottom: 2px solid #fff; 
+}
+
+/* 评价 */
+.eval{
+  width:100%;
+  border-bottom: 1px solid #efefef;
+}
+.all{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 5px solid #efefef;
+}
+.every{
+  width: 20%;
+  height: 16px;
+  line-height: 16px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  background: #FFE4E1;
+  margin-top: 20px;
+  border-bottom: 2px solid #800000;
+}
+.porsion{
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: 0px 0px 30px #efefef;
+}
+.porsion_top{
+  width: 100%;
+  margin-top: 16px;
+}
+.top_left{
+  margin-top: 10px;
+  float: left;
+}
+.top_right{
+   float:right;
+   margin:12px 10px;
+}
+.pic{
+  width: 100%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.pc{
+  width: 30%;
+  height: 100px;
+}
+
+/* 推荐 */
+.hd{
+  width: 96%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.body{
+  width: 100%;
+}
+.one:nth-child(2n){
+  margin-right: 0;
+}
+.one{
+  width: 49%;
+  height: 240px;
+  float: left;
+  background: #fff;
+  border-radius: 6px;
+  margin-right: 2%;
+  margin-bottom: 10px;
+}
+.pictrue{
+  width: 90%;
+  height: 70%;
+  margin: 0 auto;  
+}

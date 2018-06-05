@@ -1,0 +1,33 @@
+/* pages/detaild/detaild.wxss */
+.display{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  background: #99CCFF;
+  /* background: rgba(153,204,255,0.6); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; */
+}
+.display view{
+  font-size: 12px;
+}
+.dataild{
+width: 100%;
+font-size: 30rpx;
+text-align: center;
+background: burlywood;
+color: #fff;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.content{
+  width: 100%;
+}
+.click{
+  font-weight: 700;
+  border-bottom: 2px solid #fff; 
+}

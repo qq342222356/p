@@ -1,0 +1,181 @@
+<!--list.wxml-->
+
+<view class='display' style='display:{{display}}'>
+  <text style='font-size:16px;color:#fff' bindtap='click' class="{{num==1?'click':''}}" id="1">首页</text>
+  <text style='font-size:16px;color:#fff' bindtap='click' class="{{num==2?'click':''}}" id="2">详情</text>
+  <text style='font-size:16px;color:#fff' bindtap='click' class="{{num==3?'click':''}}" id="3">评价</text>
+  <text style='font-size:16px;color:#fff' bindtap='click' class="{{num==4?'click':''}}" id="4">推荐</text>
+</view>
+
+
+
+<!-- 首页 -->
+<view id='list' style="display:{{num==1?'block':'none'}}">
+  <view class='container'>
+    <text class='list'>首页</text>
+    <view class='head'>
+      <image src='../image/load.png'></image>
+    </view>
+    <view class='content'>
+      <navigator url='/pages/detaild/detaild?title=detaild'>
+        <view class='content_list'>
+          <view class='left'>
+            <image class='img' src='../image/demo3.png'></image>
+          </view>
+          <view class='right'>
+            <text style='width:100%'>这是名称</text>
+            <text style='width:100%'>这是简介我是简介各种简介简介的位置就在这返回的</text>
+            <text>价格：50RMB</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+
+<!-- 详情 -->
+<view id='detaild' style="display:{{num==2?'block':'none'}}">
+  <view class='container'>
+    <text class='detaild'>商品详情</text>
+    <view class='head'>
+      <image src='../image/load.png'></image>
+    </view>
+    <view class='content'>
+      <view class='price' style='color:red;font-weight:900;'>￥888</view>
+      <view>名称位置</view>
+      <view>简介：位置简介位置简介位置简介位置简介位置简介位置简介位置简介位置简介位置简介位置简介位置简介位置简介位置简介位置简介位置简介位置简介位置</view>
+      <view>选择的商品：xxxxxxxxxxxx</view>
+      <view>发货方式:</view>
+      <view>收货地址：北京市朝阳区针织路泰达时代中心四号楼1604</view>
+      <view>收货人：XXX</view>
+    </view>
+  </view>
+</view>
+
+
+<!-- 评价 -->
+<view id='eval' style="display:{{num==3?'block':'none'}}">
+  <view class='container'>
+    <text class='evaluate'>评价</text>
+    <view class='eval'>
+      <text style='float:left;font-size:14px;'>商品名字</text>
+      <text style='float:right;font-size:14px;'>好评度 100%</text>
+    </view>
+    <view class='all'>
+      <view class='every'>全部 8888</view>
+      <view class='every'>好评 88</view>
+      <view class='every'>中评 88</view>
+      <view class='every'>差评 8</view>
+    </view>
+    <view class='porsion'>
+      <view class='porsion_top'>
+        <view class='top_left'>
+          <image style='width:30px;height:30px;border-radius:50%;' src='../image/header.png'></image>
+        </view>
+        <text style='float:left;margin:12px 10px;font-size:16px;'>张三</text>
+        <view class='top_right;font-size:14px;'>2018.06.30</view>
+      </view>
+      <view style='float:left;margin-bottom:10px;'>
+        <view style='width:100%;font-size:16px;'>评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论</view>
+      </view>
+      <view class='pic'>
+        <image class='pc' src='../image/demo3.png'></image>
+        <image class='pc' src='../image/demo3.png'></image>
+        <image class='pc' src='../image/demo3.png'></image>
+      </view>
+      <view style='font-size:14px;'>商品名称</view>
+      <view style='font-size:14px;'>购买时间：2018.02.22</view>
+    </view>
+    <view class='porsion'>
+      <view class='porsion_top'>
+        <view class='top_left'>
+          <image style='width:30px;height:30px;border-radius:50%;' src='../image/header.png'></image>
+        </view>
+        <text style='float:left;margin:12px 10px;font-size:16px;'>张三</text>
+        <view class='top_right;font-size:14px;'>2018.06.30</view>
+      </view>
+      <view style='float:left;margin-bottom:10px;'>
+        <view style='width:100%;font-size:16px;'>评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论</view>
+      </view>
+      <view class='pic'>
+        <image class='pc' src='../image/demo3.png'></image>
+        <image class='pc' src='../image/demo3.png'></image>
+        <image class='pc' src='../image/demo3.png'></image>
+      </view>
+      <view style='font-size:14px;'>商品名称</view>
+      <view style='font-size:14px;'>购买时间：2018.02.22</view>
+    </view>
+    <view class='porsion'>
+      <view class='porsion_top'>
+        <view class='top_left'>
+          <image style='width:30px;height:30px;border-radius:50%;' src='../image/header.png'></image>
+        </view>
+        <text style='float:left;margin:12px 10px;font-size:16px;'>张三</text>
+        <view class='top_right;font-size:14px;'>2018.06.30</view>
+      </view>
+      <view style='float:left;margin-bottom:10px;'>
+        <view style='width:100%;font-size:16px;'>评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论</view>
+      </view>
+      <view class='pic'>
+        <image class='pc' src='../image/demo3.png'></image>
+        <image class='pc' src='../image/demo3.png'></image>
+        <image class='pc' src='../image/demo3.png'></image>
+      </view>
+      <view style='font-size:14px;'>商品名称</view>
+      <view style='font-size:14px;'>购买时间：2018.02.22</view>
+    </view>
+  </view>
+</view>
+
+<!-- 推荐 -->
+<view id='recommend' style="display:{{num==4?'block':'none'}};background:#efefef;">
+  <view class='container'>
+    <text class='recom'>推荐</text>
+    <view class='hd'>
+      <view style='margin-top:6px;margin-right:5px;width:4px;height:12px;border-radius:2px;background:red;float:left;'></view>
+      <text style='float:left;font-size:14px;'>本店精选</text>
+      <text style='float:right;font-size:14px;'>店铺首页></text>
+    </view>
+    <view class='body'>
+      <view class='one'>
+        <view class='pictrue'>
+          <image style='width:100%;height:100%;' src='../image/header.png'></image>
+        </view>
+        <view style='font-size:14px;'>名字这个名字估计有点长名字这个名字估计有点长</view>
+        <view style='color:red;font-weight:700;font-size:14px;'>￥222.22</view>
+      </view>
+      <view class='one'>
+        <view class='pictrue'>
+          <image style='width:100%;height:100%;' src='../image/header.png'></image>
+        </view>
+        <view style='font-size:14px;'>名字这个名字估计有点长名字这个名字估计有点长</view>
+        <view style='color:red;font-weight:700;font-size:14px;'>￥222.22</view>
+      </view>
+      <view class='one'>
+        <view class='pictrue'>
+          <image style='width:100%;height:100%;' src='../image/header.png'></image>
+        </view>
+        <view style='font-size:14px;'>名字这个名字估计有点长名字这个名字估计有点长</view>
+        <view style='color:red;font-weight:700;font-size:14px;'>￥222.22</view>
+      </view>
+      <view class='one'>
+        <view class='pictrue'>
+          <image style='width:100%;height:100%;' src='../image/header.png'></image>
+        </view>
+        <view style='font-size:14px;'>名字这个名字估计有点长名字这个名字估计有点长</view>
+        <view style='color:red;font-weight:700;font-size:14px;'>￥222.22</view>
+      </view>
+      <view class='one'>
+        <view class='pictrue'>
+          <image style='width:100%;height:100%;' src='../image/header.png'></image>
+        </view>
+        <view style='font-size:14px;'>名字这个名字估计有点长名字这个名字估计有点长</view>
+        <view style='color:red;font-weight:700;font-size:14px;'>￥222.22</view>
+      </view>
+    </view>
+
+  </view>
+
+
+</view>
